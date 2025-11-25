@@ -19,6 +19,15 @@ body {
     padding: 150px 540px 100px;
 }
 
+.section-4 {
+    padding: 100px 400px;
+}
+
+.footer {
+    padding: 32px;
+    text-align: center;
+}
+
 .section-1,
 .footer {
     background-color: #1F2937;
@@ -69,13 +78,13 @@ button {
 }
 
 .title,
-.header-logo {
+.header-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-.header-logo {
+.header-text {
     font-size: 24px;
 }
 
@@ -127,4 +136,16 @@ ul,
     color: #1F2937;
     text-align: end;
     padding: 8px 40px 0 0;
+}
+.cta {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8;
+    margin: 0;
 }
